@@ -1,0 +1,135 @@
+@charset "utf-8";
+.margin{width: 1000px;margin:0 auto;}
+body{background: #e5e5e5;}
+/* header */
+header{
+		display:flex;
+		}
+header img{
+			margin:30px 0 0 100px;
+			width:150px;
+			height:50px;
+			}
+header h2{
+			margin:35px 0 0 5px;
+			}
+.box{
+	display:flex;
+	height:30px;
+	}
+.box p{
+		font:16px/30px "";
+		color:#000000;
+		margin:50px 0 0 200px;
+		}
+.box span{
+		width:200px;
+		height:30px;
+		background:#fff;
+		font:20px/30px "";
+		color:#000000;
+		margin:50px 0 0 300px;
+		text-align: center;		
+		}
+.box p a{
+		color:#8AB700;
+		
+		}
+		
+/* main */
+.cont{
+	margin-top:50px;
+}
+.error{
+	width:200px;
+	height:20px;
+	position: absolute;
+	top:10px;
+	left: 250px;
+	background: cornsilk;
+	font:12px/20px "";
+	display:none;
+	color:#666;
+	text-align: center;
+}
+.cont .tbbox{
+	overflow: hidden;
+	height:600px;
+	background:#fff;
+	position: relative;
+}
+.cont .tbbox img{
+	position: absolute;
+	top:100px;
+	right:20px;
+}
+.cont .tbbox p{
+			margin:50px 0 20px 100px ;
+			font:20px/30px;
+}
+.cont .tbbox p input{height:30px;}
+.user,.passw,.repassw,.email,.name,.tel,.num{width:200px;height:20px;background:#ccc;
+	border:0;border-radius: 5px;}
+
+	.cont .tbbox span{
+		display:inline-block;
+		cursor: pointer;
+		height:20px;
+		width:45px;
+		background: #fff;
+		border:#ccc 1px solid;
+		font:12px/18 px "";
+		color:#fff;
+		text-align:center;
+	}
+	.cont .tbbox i{
+		color:red;
+		margin-left:10px;
+		margin-right: 2px;
+	}
+.cont .tbbox .num{width:60px;}
+.cont .tbbox b{
+	width:60px;
+	height:20px;
+	cursor: pointer;
+	background:#fff;
+	margin-left: 6px;
+	display: inline-block;
+	font:14px/20px"";
+	color:#ccc;
+	text-align: center;
+}
+.cont .tbbox .chk{
+	margin-left:100px;
+}
+.cont .tbbox .btn{
+	display:block;
+	width:200px;
+	height:35px;
+	background: green;
+	font:16px/35px "";
+	color:#fff;
+	text-align:center;
+	border:0;
+	border-radius: 5px;
+	margin:30px 0 0 200px;
+	cursor: pointer;
+}
+
+		
+/* footer */
+footer{height:100px;
+		text-align: center;
+		overflow: hidden;
+		padding-top:30px;
+		}
+footer a{		
+		font:16px/24px "";
+		color:#666666;
+		
+}
+footer p{
+		font:16px/24px "";
+		color:#666666;
+		text-align: center;
+}

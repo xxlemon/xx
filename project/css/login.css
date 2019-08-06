@@ -1,0 +1,121 @@
+@charset "utf-8";
+.margin{width: 1000px;margin:0 auto;}
+
+/* header */
+header{
+		display:flex;
+		}
+header img{
+			margin:30px 0 0 100px;
+			width:150px;
+			height:50px;
+			}
+header h2{
+			margin:35px 0 0 5px;
+			}
+
+/* main */
+main{display:flex;
+	overflow: hidden;
+}
+main .left{
+			width:500px;
+			margin-top:50px;
+			}
+main .right{
+			margin-left:50px;
+			width:500px
+			}
+main .right .top{
+				display:flex;
+				justify-content: space-between;
+				margin-top:20px;
+				height:30px;
+				}
+main .right .top h2{
+					height:30px;
+					font:20px/30px "";
+					}
+main .right .top span{
+						display:block;
+						font:16px/30px "";
+						}
+main .right .center{
+					border:1px solid #eee;
+					height:250px;
+					overflow: hidden;
+					
+					}
+
+main .right .center .user{
+							margin-top:30px;
+							width:200px;
+							height:30px;
+							border:1px solid #d5d5d5;
+							
+							padding:0 7px;
+							font:12px/30px "";
+							color:#666;
+							}
+main .right .center .pass{
+							margin-top:30px;
+							width:200px;
+							height:30px;
+							border:1px solid #d5d5d5;
+							
+							padding:0 7px;
+							font:12px/30px "";
+							color:#666;
+							}						
+
+main .right .center	.chk{
+						
+						margin:30px 0 0 30px;
+						}
+						
+main .right .center	.btn{
+						width:100px;
+						height:40px;
+						background:#669900;
+						font:16px/40px "";
+						color:#fff;
+						text-align:center;
+						border:0;
+						border-radius: 5px;
+						cursor: pointer;
+						margin:20px 0 0 150px;
+						}
+
+main .right .bottom{
+					border:1px solid #eee;
+					height:80px
+					}
+main .right .bottom .bbt{
+						display:flex;
+						}
+main .right .bottom .bbt p{
+						display:flex;
+						margin:20px 0 0 20px;
+						}
+main .right .bottom .bbt p i{
+							display:inline-block;
+							color:#8AB700;
+							margin-right:5px
+							}
+							
+/* footer */
+footer{height:100px;
+		text-align: center;
+		overflow: hidden;
+		padding-top:30px;
+		}
+footer a{		
+		font:16px/24px "";
+		color:#666666;
+		
+}
+footer p{
+		font:16px/24px "";
+		color:#666666;
+		text-align: center;
+}							

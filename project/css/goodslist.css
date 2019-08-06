@@ -1,0 +1,101 @@
+/* 头部 */
+@charset "utf-8";
+.margin{width: 1200px;margin:0 auto;}
+header .top{height:34px;
+			background: #f7f7f7;
+			border-bottom:1px solid #eee;
+			}
+header .top .left{float:left;}
+header .top .right{float:right;}
+header .top .right a{}
+header .top a{font:12px/34px "";
+		color: #969696;
+		}
+header .center{height:77px;}
+header .center .logo{float:left;
+			         margin-top:20px;
+					width:104px;
+					height:35px;
+			/* background-position:0 -7px; */
+					margin-top:16px;
+					}
+header .center .search{float:left;
+						margin:16px 0 0 400px;
+					}
+header .center .search form{overflow:hidden;}
+header .center .search form .txt{
+								float:left;
+								width:258px;
+								height:26px;
+								border:2px solid #d5d5d5;
+								border-right:0;
+								padding:0 7px;
+								font:12px/26px "";
+								color:#666;
+								}
+header .center .search form .sub{float:left;
+						width:65px;
+						height:30px;
+						background:#669900;
+						color:#fff;
+						border:0;
+						}
+header .center .search p{font:12px/28px "";}
+header .center .search p span{color:#cacaca;
+					margin-right:6px;
+					}
+header .center .search p a{color:#888;
+					margin-right:3px;
+					}
+
+header .center .shop{float:right;
+					width:126px;
+					height:34px;
+					background-position:0 -64px;
+					margin-top:20px;
+					text-align: center;
+					font:12px/34px "";
+					color:#666;
+					border: #969696 1px solid;
+					
+					}
+
+header .center .shop span{color:#c70055;
+							margin:0 4px;
+						}
+/* nav */
+nav{height:34px;background:#8ab700;}
+nav .nav-l{
+			float:left;
+			width:190px;
+			height:34px;
+			background:#78a000;
+			}
+nav .nva-l h3{
+				font:700 14px/34px "";
+				color:#fff;
+				text-align:center;
+				}
+nav .nav-c{float:left;}
+nav .nav-c li{float:left;}
+nav .nav-c li a{
+				display:block;
+				font:14px/34px "";
+				color:#fff;
+				padding:0 20px 0 15px;
+				/* background:url(../images/t1.png) no-repeat right; */
+				}
+nav .nav-c li a.last{background:none;}
+nav .nav-c li a:hover{background:#78a000;}
+
+/* main */
+main{
+
+}
+main p{
+	height:40px;	
+}
+main p span{
+			display:inline-block;
+			font:20px/40px;
+}

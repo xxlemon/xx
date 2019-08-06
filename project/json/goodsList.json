@@ -1,0 +1,268 @@
+[{
+		"goodsId": "1",
+		"items": "瓜类",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400334853/210x210_w_4400334853_1_6.jpg",
+		"price": "29.9",
+		"goodName": "百事兴 山东海阳 网纹蜜瓜4~5斤（1~2枚装）鲁厚甜/静冈 2~2.5kg"
+	},
+	{
+		"goodsId": "2",
+		"items": "瓜类",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400333311/210x210_w_4400333311_1_1.jpg",
+		"price": "49.9",
+		"goodName": "果郡王 新疆吐鲁番哈密瓜6~8斤装 1个或2个随机发 总重6~8斤"
+	},
+	{
+		"goodsId": "3",
+		"items": "瓜类",
+		"goodsImg": "http://p02.sfimg.cn/2017/1800261629/210x210_w_1800261629_1_4.jpg",
+		"price": "49.9",
+		"goodName": "爱常鲜儿 广东惠州夏威夷木瓜 2.5kg约3~4个"
+	},
+	{
+		"goodsId": "4",
+		"items": "瓜类",
+		"goodsImg": "http://p02.sfimg.cn/2017/4400275821/210x210_4400275821_1_1.jpg",
+		"price": "59",
+		"goodName": "西州蜜瓜1个装 3~4斤"
+	},
+	{
+		"goodsId": "5",
+		"items": "瓜类",
+		"goodsImg": "http://p02.sfimg.cn/2017/1800265287/210x210_w_1800265287_1_9.jpg",
+		"price": "39.9",
+		"goodName": "果缤纷 西州蜜瓜1个装 3~4斤"
+	},
+	{
+		"goodsId": "6",
+		"items": "瓜类",
+		"goodsImg": "http://p02.sfimg.cn/2017/1800267081/210x210_w_1800267081_1_7.jpg",
+		"price": "49.9",
+		"goodName": "爱常鲜儿 广西南宁西瓜红蜜薯 2.5kg约22个左右"
+	},
+	{
+		"goodsId": "7",
+		"items": "瓜类",
+		"goodsImg": "http://p02.sfimg.cn/2018/4400286397/210x210_w_4400286397_1_1.jpg",
+		"price": "39.9",
+		"goodName": "果缤纷 海南西周蜜瓜 1粒装  约3~4斤"
+	},
+	{
+		"goodsId": "8",
+		"items": "瓜类",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400335157/210x210_w_4400335157_1_1.jpg",
+		"price": "65",
+		"goodName": "西荔王 优质红心牛奶木瓜4颗 约2.5kg"
+	},
+	{
+		"goodsId": "9",
+		"items": "瓜类",
+		"goodsImg": "http://p02.sfimg.cn/2017/1800269819/210x210_w_1800269819_1_1.jpg",
+		"price": "49.9",
+		"goodName": "果缤纷 海南冰糖心木瓜 2粒"
+	},
+	{
+		"goodsId": "10",
+		"items": "瓜类",
+		"goodsImg": "http://p02.sfimg.cn/2017/1800267201/210x210_w_1800267201_1_6.jpg",
+		"price": "79",
+		"goodName": "厚利 海南澄迈桥头沙土板栗地瓜 2.5kg"
+	},
+	{
+		"goodsId": "11",
+		"items": "苹果",
+		"goodsImg": "http://p02.sfimg.cn/2018/4400288345/210x210_4400288345_1_1.jpg",
+		"price": "78",
+		"goodName": "山东烟台红富士苹果12枚装 单果85mm"
+	},
+	{
+		"goodsId": "12",
+		"items": "苹果",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400327465/210x210_4400327465_1_01.jpg",
+		"price": "70",
+		"goodName": "新西兰红玫瑰苹果 10颗"
+	},
+	{
+		"goodsId": "13",
+		"items": "苹果",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400328689/210x210_4400328689_6_0.jpg",
+		"price": "85",
+		"goodName": "洛川红富士12粒家庭装A型75~80mm2.25kg"
+	},
+	{
+		"goodsId": "14",
+		"items": "苹果",
+		"goodsImg": "http://p02.sfimg.cn/2017/4400275825/210x210_4400275825_1_2.jpg",
+		"price": "80",
+		"goodName": "陕西高原富士8粒装 单果210~250g"
+	},
+	{
+		"goodsId": "15",
+		"items": "苹果",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400328691/210x210_4400328691_6_0.jpg",
+		"price": "95",
+		"goodName": "洛川红富士12粒家庭装B型80-85mm2.75kg"
+	},
+	{
+		"goodsId": "16",
+		"items": "苹果",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400330621/210x210_w_4400330621_1_1.jpg",
+		"price": "66",
+		"goodName": "云源 新西兰红玫瑰进口苹果12个装全国包邮 12个装单果150g+"
+	},
+	{
+		"goodsId": "17",
+		"items": "苹果",
+		"goodsImg": "http://p02.sfimg.cn/2017/1800270291/210x210_w_1800270291_1_2.jpg",
+		"price": "68",
+		"goodName": "果缤纷 陕西高原富士8粒80~85mm 8粒"
+	},
+	{
+		"goodsId": "18",
+		"items": "苹果",
+		"goodsImg": "http://p02.sfimg.cn/2015/1800170281/210x210_w_1800170281_1_18.jpg",
+		"price": "69.9",
+		"goodName": "誉福园 山东烟台栖霞红富士苹果5斤装 果径80以上 80一85mm"
+	},
+	{
+		"goodsId": "19",
+		"items": "榴莲",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400334127/210x210_w_4400334127_1_1.jpg",
+		"price": "388",
+		"goodName": "糖宝果鲜 正宗d197猫山王榴莲 3.5_4.5斤"
+	},
+	{
+		"goodsId": "20",
+		"items": "榴莲",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400328487/210x210_w_4400328487_1_1.jpg",
+		"price": "199",
+		"goodName": "西荔王 泰国进口金枕A级果1个装 5~7斤 金枕单果：5~7斤"
+	},
+	{
+		"goodsId": "21",
+		"items": "榴莲",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400328295/210x210_w_4400328295_1_1.jpg",
+		"price": "169",
+		"goodName": "西荔王 泰国金枕榴莲A级果1个3~5斤 单果3~5斤"
+	},
+	{
+		"goodsId": "22",
+		"items": "榴莲",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400334129/210x210_w_4400334129_1_1.jpg",
+		"price": "488",
+		"goodName": "糖宝果鲜 正宗猫山王榴莲d197 4.5_5.4斤"
+	},
+	{
+		"goodsId": "23",
+		"items": "榴莲",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400335601/210x210_w_4400335601_1_1.jpg",
+		"price": "158",
+		"goodName": "糖宝果鲜 马来西亚d197猫山王榴莲肉 400g*1盒"
+	},
+	{
+		"goodsId": "24",
+		"items": "榴莲",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400328489/210x210_w_4400328489_1_1.jpg",
+		"price": "229",
+		"goodName": "西荔王 泰国金枕榴莲A级果单个或2个装 6~7斤 总重：6~7斤"
+	},
+	{
+		"goodsId": "25",
+		"items": "榴莲",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400335603/210x210_w_4400335603_1_1.jpg",
+		"price": "288",
+		"goodName": "糖宝果鲜 正宗马来西亚猫山王榴莲肉 400g*2盒"
+	},
+	{
+		"goodsId": "26",
+		"items": "榴莲",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400328491/210x210_w_4400328491_1_1.jpg",
+		"price": "259",
+		"goodName": "西荔王 泰国金枕榴莲A级果单个或2个装7~8斤 总重：7~8斤"
+	},
+	{
+		"goodsId": "27",
+		"items": "榴莲",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400328493/210x210_w_4400328493_1_1.jpg",
+		"price": "289",
+		"goodName": "西荔王 泰国金枕榴莲A级果单个或2个装 8~9斤 总重：8~9斤"
+	},
+	{
+		"goodsId": "28",
+		"items": "榴莲",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400328495/210x210_w_4400328495_1_1.jpg",
+		"price": "319",
+		"goodName": "西荔王 泰国金枕榴莲A级果 单个或2个装9~10斤 总重：9~10斤"
+	},
+	{
+		"goodsId": "29",
+		"items": "榴莲",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400336245/210x210_w_4400336245_1_1.jpg",
+		"price": "399",
+		"goodName": "与农说 【猫山王】 液氮冷冻榴莲 2kg_2.5kg"
+	},
+	{
+		"goodsId": "30",
+		"items": "榴莲",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400336247/210x210_w_4400336247_1_1.jpg",
+		"price": "499",
+		"goodName": "与农说 【猫山王】 液氮冷冻 榴莲 3kg_3.5kg"
+	},
+	{
+		"goodsId": "31",
+		"items": "芒果",
+		"goodsImg": "http://p02.sfimg.cn/2018/4400293879/210x210_w_4400293879_1_1.jpg",
+		"price": "42.9",
+		"goodName": "爱常鲜儿 广西百色桂七芒5斤装 一级果 单果150~250g 2.5kg约16个左右"
+	},
+	{
+		"goodsId": "32",
+		"items": "芒果",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400334417/210x210_w_4400334417_1_1.jpg",
+		"price": "49.8",
+		"goodName": "誉福园 四川攀枝花凯特芒果4.5斤装 买1送1合并发9斤 单果400g起 约4一8个"
+	},
+	{
+		"goodsId": "33",
+		"items": "芒果",
+		"goodsImg": "http://p02.sfimg.cn/2016/1800237919/210x210_w_1800237919_1_10.jpg",
+		"price": "39.8",
+		"goodName": "誉福园 产地直发 四川攀枝花凯特芒果5斤装 约2一5个 单果400g起"
+	},
+	{
+		"goodsId": "34",
+		"items": "芒果",
+		"goodsImg": "http://p02.sfimg.cn/2017/1800270715/210x210_w_1800270715_1_1.jpg",
+		"price": "59.9",
+		"goodName": "果缤纷 攀枝花凯特芒 2.5kg 3~4只"
+	},
+	{
+		"goodsId": "35",
+		"items": "芒果",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400333635/210x210_w_4400333635_1_5.jpg",
+		"price": "99",
+		"goodName": "糖宝果鲜 攀枝花苹果芒礼盒装 7斤"
+	},
+	{
+		"goodsId": "36",
+		"items": "芒果",
+		"goodsImg": "http://p02.sfimg.cn/2016/1800241437/210x210_w_1800241437_1_10.jpg",
+		"price": "69.9",
+		"goodName": "誉福园 产地直发 四川攀枝花凯特芒果8斤装 约3一6个 单果400g起"
+	},
+	{
+		"goodsId": "37",
+		"items": "芒果",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400333633/210x210_w_4400333633_1_5.jpg",
+		"price": "99",
+		"goodName": "糖宝果鲜 【送2斤】攀枝花鹰嘴芒礼盒装 买6斤送2斤，共发8斤！精选6_8两大果"
+	},
+	{
+		"goodsId": "38",
+		"items": "芒果",
+		"goodsImg": "http://p02.sfimg.cn/2019/4400327809/210x210_w_4400327809_1_1.jpg",
+		"price": "139",
+		"goodName": "西荔王 台湾水仙芒果一级果10斤装 5kg"
+	}
+
+]

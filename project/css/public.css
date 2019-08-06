@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}/*去除空隙*/
+li{list-style:none;}/*去除li列表符号*/
+a{text-decoration:none;}/*去除下划线*/
+
+/*溢出隐藏*/
+.over{
+	white-space:nowrap;/*强制不换行*/
+	overflow:hidden;/*溢出隐藏*/
+	text-overflow:ellipsis;/*只要溢出隐藏了就出现省略号*/
+}
+
+/*万能清除法*/
+.clear:before{content:"";display:table;}/*解决margin-top传递问题*/
+.clear:after{content:"";clear:both;display:block;}/*高度塌陷问题*/
+
+/*图片垂直水平对齐*/
+.valign{text-align:center;}
+.valign:after{content:"";display:inline-block;vertical-align:middle;height:100%;}
+.valign img{vertical-align:middle;}

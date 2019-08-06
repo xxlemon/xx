@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/register.css">
+		<link rel="stylesheet" href="../css/public.css">
+	</head>
+	<body>
+		<header class="margin">
+			<img src="../images/logo.png">
+			<h2> 欢迎注册</h2>
+		</header>
+		<div class="box margin">
+			<span>个人用户</span>
+			<p>已有账号，请<a href="login.html">登录</a></p>
+		</div>
+		
+		<!-- main -->
+		<div class="cont ">
+			<div class="error"></div>
+				<div class="tbbox margin">
+					<p>用 户 名 称 <i>*</i><input type="text" class="user" value="请输入用户名"></p>
+					<p>登 录 密 码 <i>*</i><input type="password" class="passw" value=""></p>
+					<p>确 认 密 码 <i class="r">*</i><input type="password" class="repassw"></p>
+					<p>密码安全级别 <i class="te">*</i> <span class="s1"></span><span class="s2"></span><span class="s3"></span></p>
+					<p>验  证  码 <i class="n">*</i><input type="text" class="num"><b>3678</b></p>
+					<input type="checkbox" class="chk">记住我？
+					<input type="button" value="注册" class="btn"> 
+					<img src="../images/18.png">
+					<p><em></em></p>
+				</div>
+		</div>
+	<!-- foot -->
+	<footer class="margin">
+		<a href="#">联系我们</a>
+		<span>|</span>
+		<a href="#">关于我们</a>
+		<span>|</span>
+		<a href="#">招聘人才</a>
+		<span>|</span>
+		<a href="#">友情链接</a>
+		<p class="frist">Copyright © 2005-2019上海易果电子商务有限公司版权所有</p>
+		<p>沪ICP备09008015号    沪公网安备 31010502000002号</p>
+	</footer>
+	</body>
+</html>
+<script src="../js/jquery.1.12.4.js"></script>
+<script src="../js/register.js"></script>
+<script>
+;(function(){
+
+var oUser = document.querySelector(".user");
+var oPassw = document.querySelector(".passw");
+var oRepassw = document.querySelector(".repassw");
+var oSpan1 = document.querySelector(".s1");
+var oSpan2 = document.querySelector(".s2");
+var oSpan3 = document.querySelector(".s3");
+
+var oNum = document.querySelector(".num");
+var oB = document.querySelector("b");
+var oBtn = document.querySelector(".btn");
+var oCont = document.querySelector(".cont");
+var oError = document.querySelector(".error");
+
+var useronOff = passonOff = repassonOff = true;
+oUser.onfocus = function(){
+        oUser.value = "";
+    }
+    oUser.onblur = function(){
+        var strUser = this.value;
+       
+        var regUser =/^[\d\w_]{6,18}$/i;
+        console.log(regUser.test(strUser));
+
+        if(!regUser.test(strUser)){
+            oError.innerHTML = "用户名不合法，请重新输入";
+            oError.style.display = "block";
+            this.value = "请输入用户名";
+        }else{
+            this.value = this.value;
+            oError.style.display = "none";
+            useronOff = true;
+        }
+    }
+
+		
+oPassw.oninput = function(){
+//			密码中存储每种类型的状态：
+	var a = b = c = 0;
+	var numReg = /\d{2,6}/;
+	if(numReg.test(this.value)){
+		a = 1;
+	}
+	var azReg = /[a-z]{3,10}/i;
+	if(azReg.test(this.value)){
+		b = 1;
+	}
+	var tsReg = /[^\da-z]{1,2}/i;
+	if(tsReg.test(this.value)){
+		c = 1;
+	}
+	switch(a+b+c){
+		case 1:
+            oSpan1.style.background = "green"; oSpan1.innerHTML = "低";
+            oSpan2.style.background = "#fff";break;
+		case 2:
+            oSpan2.style.background = "green"; oSpan2.innerHTML = "中";
+            oSpan1.style.background = "#fff";
+            oSpan3.style.background = "#fff";break;
+		case 3:
+            oSpan3.style.background = "green"; oSpan3.innerHTML = "高";
+            oSpan2.style.background = "#fff";break;
+	}
+	passonOff = true;
+			
+	if(oRepassw.value == "") return;
+	if(this.value == oRepassw.value){
+        oError.style.display = "none";
+		repassonOff = true;
+	}else{
+		oError.innerHTML = "不一致";
+        oError.style.display = "block";				
+		repassonOff = false;
+	}
+}
+		
+//		重复密码的验证
+oRepassw.onblur = function(){
+	if(this.value == oPassw.value){
+        oError.style.display = "none";
+		pass2onOff = true;
+	}else{
+		oError.innerHTML = "不一致";
+        oError.style.display = "block";				
+		repassonOff = false;
+	}
+}
+
+
+
+oB.onclick = function(){
+    this.innerHTML = random(1000,9999);
+}
+
+function random(a,b){
+    return Math.round(Math.random() * (a - b) + b);
+}
+
+
+oBtn.onclick = function(){
+	if(useronOff && passonOff && repassonOff){
+		alert("注册成功");
+	}else{
+		alert("用户名失败");
+		if(!passonOff){
+			alert("密码验证失败")
+		}
+		if(!repassonOff){
+			alert("重复密码失败")
+        }
+
+	}
+}
+
+})();
+	
+
+</script>
+
